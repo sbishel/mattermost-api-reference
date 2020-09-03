@@ -203,6 +203,8 @@
         ##### Permissions
 
         Must have `manage_system` permission.
+
+        __Minimum server version__: 5.28
       requestBody:
         content:
           multipart/form-data:
@@ -240,6 +242,8 @@
         ##### Permissions
 
         Must have `manage_system` permission.
+
+        __Minimum server version__: 5.28
       responses:
         "200":
           description: LDAP certificate delete successful
@@ -265,6 +269,8 @@
         ##### Permissions
 
         Must have `manage_system` permission.
+
+        __Minimum server version__: 5.28
       requestBody:
         content:
           multipart/form-data:
@@ -302,6 +308,8 @@
         ##### Permissions
 
         Must have `manage_system` permission.
+        
+        __Minimum server version__: 5.28
       responses:
         "200":
           description: LDAP certificate delete successful
